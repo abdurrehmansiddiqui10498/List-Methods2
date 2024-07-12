@@ -1,6 +1,6 @@
 # How to find when to do that thing at that time
 list = ["Dinner","Lunch","Breakfast"]
-b = list.index(input("enter meal to tell the time"))
+b = list.index(input("enter meal to tell the time:"))
 if b == 0:
   print("You must eat at 8:30")
 elif b == 1:
